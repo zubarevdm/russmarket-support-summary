@@ -1,0 +1,61 @@
+{
+  "now": "2026-11-02T10:00:00",
+  "cases": [
+    {
+      "id": "С-17",
+      "type": "onboarding",
+      "title": "Оформление сотрудника",
+      "crm": {
+        "first_shift_date": "2026-11-03",
+        "docs_status": "expected",
+        "updated_at": "2026-11-02T08:30:00"
+      },
+      "messages": [
+        {"from_role": "employee", "at": "2026-11-02T09:10:00",
+         "text": "Вчера отправил фотографии документов руководителю в личку"}
+      ]
+    },
+    {
+      "id": "С-24",
+      "type": "offboarding",
+      "title": "Увольнение сотрудника",
+      "crm": {
+        "last_day": "2026-11-02",
+        "manager_confirmation": false,
+        "updated_at": "2026-11-02T08:30:00"
+      },
+      "messages": [
+        {"from_role": "employee", "at": "2026-11-02T09:25:00",
+         "text": "С руководителем всё обсудили, он в курсе"}
+      ]
+    },
+    {
+      "id": "П-08",
+      "type": "card_delivery",
+      "title": "Поставка карт",
+      "crm": {
+        "deadline": "2026-11-02T10:00:00",
+        "status": "in_transit",
+        "updated_at": "2026-11-02T08:30:00"
+      },
+      "messages": [
+        {"from_role": "courier", "at": "2026-11-02T09:40:00",
+         "text": "Задерживаюсь, раньше 13:00 не приеду"}
+      ]
+    },
+    {
+      "id": "П-09",
+      "type": "card_delivery",
+      "title": "Поставка карт",
+      "crm": {
+        "status": "accepted",
+        "accepted_at": "2026-11-02T09:20:00",
+        "updated_at": "2026-11-02T09:20:00"
+      },
+      "messages": [
+        {"from_role": "recipient", "at": "2026-11-02T09:22:00",
+         "text": "Карты получили, количество проверили"}
+      ]
+    }
+  ]
+}

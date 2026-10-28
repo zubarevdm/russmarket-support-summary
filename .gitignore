@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.obsidian/
+.env
+redirect.pdf
